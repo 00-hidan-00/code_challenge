@@ -65,7 +65,6 @@ class BankAccount:
 #   Реализуйте методы add_book(book) для добавления книги в библиотеку,
 #   remove_book(book) для удаления книги из библиотеки, add_member(member) для добавления нового члена библиотеки
 #   и remove_member(member) для удаления члена библиотеки.
-
 #   Также реализуйте метод checkout_book(book, member) для выдачи книги члену библиотеки и return_book(book, member)
 #   для возврата книги в библиотеку.
 
@@ -146,28 +145,7 @@ class Library:
 
 
 def main():
-    books = ['1', '2', '3']
-    members = ['Davyd', 'Masha', 'Sasha']
-    library = Library(books=books, members=members)
-    # print(library.books)
-    # print(library.add_book('444'))
-    # print(library.books)
-    # print(library.remove_book('2'))
-    # print(library.books)
-    # print()
-    print(f'{library.members=}')
-    print(library.add_member('Misha'))
-    print(f'{library.members}')
-    print()
-    print(f"{library.books=}")
-    print(f"{library.library_data_dict=}")
-    print(library.checkout_book(name_member='Misha', name_book='3'))
-    print(f"{library.books=}")
-    print(f"{library.library_data_dict=}")
-    print()
-    print(library.return_book(name_member='Misha', name_book='3'))
-    print(f"{library.books=}")
-    print(f"{library.library_data_dict=}")
+    ...
 
 
 if __name__ == "__main__":
