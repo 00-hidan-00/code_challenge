@@ -1,0 +1,26 @@
+# Bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env/
+*.venv/
+
+# IDE settings (PyCharm, VSCode)
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Cache and compiled files
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+*.env
+lesson_7 - SCRAPING/data
